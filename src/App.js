@@ -1,9 +1,12 @@
-import "./App.css";
+import "./App.scss";
 import "./resources/fonts/fonts.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import NavBar from "./components/nav";
 import Landing from "./components/landing";
+import Content from "./components/content";
+import Vacation from "./components/vacation";
+import Review from "./components/review";
 
 function App() {
   return (
@@ -22,7 +25,9 @@ function App() {
      </a> */}
       <NavBar />
       <Landing />
-      <Landing />
+      <Content />
+      <Vacation />
+      <Review />
     </>
   );
 }

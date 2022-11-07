@@ -1,0 +1,16 @@
+
+div.content-body{
+    background-color: var(--bg-b-1);
+    color: white;
+    height: 100vh;
+    .title-content{
+        font-family: Poppins;
+        font-weight: extrabold;
+        font-size: 3rem;
+        width: 30%;
+    }
+    .p-content{
+        font-family: Inter;
+        width: 30%;
+    }
+}

@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import logo from "../../resources/Images/Layer.png";
+import logo from "../../resources/Images/logo.png";
 import "./nav.scss";
 
 export default function NavBar() {

@@ -1,7 +1,53 @@
-div.landing-body{
-    width: 100%;
+div.landing-body {
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     background: url(../../resources/Images/lanterns.png), no-repeat;
+    position: relative;
+    
+    p {
+        color: white;
+        opacity: 0.7;
+        font-family: Poppins;
+        font-weight: extrabold;
+        font-size: 5rem;
+        line-height: 5rem;
+        position: absolute;
+        width: 588px;
+        height: 237px;
+        left: 4rem;
+        top: 50vh;
+    }
 
+    img.spiral{
+        // background-color: magenta;
+    }
 }
+    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+
+    div.landing-body {
+        
+        p {
+
+            font-size: 3rem;
+            line-height: 3rem;
+            position: absolute;
+            width: 80vw;
+            left: 1rem;
+            top: 40vh;
+        }
+    }
+    .your-class{
+        background-image: url("data:image/svg+xml,%3Csvg width='461' height='2374' viewBox='0 0 461 2374' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='Vector 6' d='M371.078 3C517.62 187.966 169.69 353.879 85.0776 684.5C-25.6491 1117.16 325.771 1242.84 436.5 1094.5C489.5 1023.5 436.5 917.5 319.5 917.5C170.5 917.5 3 1221.04 3 1511.5C3 1923.5 319.5 1982.5 319.5 2371' stroke='%23D2E603' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E");
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

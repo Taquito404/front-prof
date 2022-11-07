@@ -1,8 +1,9 @@
 nav.navbar.navbar-expand-md {
+  z-index: 9;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: transparent!important;
     a.navbar-brand{
         // background-color: magenta;
@@ -18,4 +19,7 @@ nav.navbar.navbar-expand-md {
     .navbar-toggler-icon{
         background: url(../../resources/Images/menu.svg)!important;
     }
+}
+.dropdown-item{
+  font-family: Inter;
 }
