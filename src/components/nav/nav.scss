@@ -1,0 +1,21 @@
+nav.navbar.navbar-expand-md {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent!important;
+    a.navbar-brand{
+        // background-color: magenta;
+    }
+    a.dropdown-toggle.nav-link {
+        color: white;
+        font-family: Inter;
+        &::after {
+            display: none;
+
+        }
+    }
+    .navbar-toggler-icon{
+        background: url(../../resources/Images/menu.svg)!important;
+    }
+}
