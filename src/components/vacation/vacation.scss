@@ -1,5 +1,5 @@
 div.vacation-body {
-    
+
     background-color: var(--bg-b-1);
     position: relative;
 
@@ -62,7 +62,7 @@ div.vacation-body {
         }
 
         .vacation-1 {
-       
+
             font-size: 3rem;
             width: 30%;
             top: 3rem;
@@ -70,7 +70,7 @@ div.vacation-body {
         }
 
         .vacation-2 {
-     
+
             font-size: 3rem;
             width: 90%;
             top: 29rem;
@@ -83,6 +83,7 @@ div.vacation-body {
 
 @media (min-width: 377px) and (max-width: 426px) {
     div.vacation-body {
+        height: 51vh;
         overflow-x: hidden;
 
         div.green-div {
@@ -92,20 +93,20 @@ div.vacation-body {
         }
 
         img.whale {
-            height: 15rem;
+            height: 20rem;
             top: 1rem;
             left: 50vw;
         }
 
         img.waves {
             top: 18rem;
-            left: 15%;
-            width: 70%;
-            filter: invert(16%) sepia(52%) saturate(4571%) hue-rotate(180deg) brightness(98%) contrast(101%);
+            left: 25%;
+            width: 50%;
+            filter: invert(11%) sepia(99%) saturate(1278%) hue-rotate(192deg) brightness(96%) contrast(91%);
         }
 
         .vacation-1 {
-         
+
             font-size: 3rem;
             width: 30%;
             top: 1rem;
@@ -113,58 +114,60 @@ div.vacation-body {
         }
 
         .vacation-2 {
-          
+
             font-size: 2.5rem;
             width: 90%;
-            top: 23rem;
+            top: 21rem;
             right: 19%;
             text-align: end;
         }
     }
 }
- 
+
 @media (min-width: 427px) and (max-width: 769px) {
     div.vacation-body {
+        height: 52vh;
+
         div.green-div {
             position: absolute;
-            height: 70vh;
+            height: 50vh;
             width: 90%;
             border-radius: 10px;
-            top: 15vh;
+            top: 1vh;
             left: 5%;
             z-index: 80;
         }
 
         img.whale {
-            height: 20rem;
-            top: 1rem;
-            left: 20vw;
+            height: 15rem;
+            top: 2rem;
+            left: 40vw;
             z-index: 90;
         }
 
         img.waves {
-            top: 8rem;
-            right: 10%;
+            top: 1rem;
+            right: 1rem;
             width: 40%;
             z-index: 89;
             filter: invert(11%) sepia(99%) saturate(1278%) hue-rotate(192deg) brightness(96%) contrast(91%);
-            
+
         }
 
         .vacation-1 {
-         
+
             font-size: 3rem;
             width: 30%;
-            top: 7rem;
+            top: 2rem;
             left: 2rem;
             z-index: 91;
         }
 
         .vacation-2 {
-          
+
             font-size: 3rem;
             width: 90%;
-            top: 2rem;
+            bottom: 1rem;
             right: 7%;
             text-align: end;
             z-index: 91;
@@ -172,8 +175,163 @@ div.vacation-body {
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media (min-width: 770px) and (max-width: 991px) {
+    div.vacation-body {
+        height: 32vh;
+
+        div.green-div {
+            position: absolute;
+            height: 30vh;
+            width: 90%;
+            border-radius: 10px;
+            top: 1vh;
+            left: 5%;
+            z-index: 80;
+        }
+
+        img.whale {
+            height: 20rem;
+            top: 2rem;
+            left: 30vw;
+            z-index: 90;
+        }
+
+        img.waves {
+            bottom: 1rem;
+            right: 1rem;
+            width: 30%;
+            z-index: 89;
+            filter: invert(11%) sepia(99%) saturate(1278%) hue-rotate(192deg) brightness(96%) contrast(91%);
+
+        }
+
+        .vacation-1 {
+
+            font-size: 4rem;
+            width: 30%;
+            top: 2rem;
+            left: 2rem;
+            z-index: 91;
+        }
+
+        .vacation-2 {
+
+            font-size: 3.5rem;
+            width: 90%;
+            top: 1rem;
+            right: 7%;
+            text-align: end;
+            z-index: 91;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    div.vacation-body {
+        height: 32vh;
+
+        div.green-div {
+            position: absolute;
+            height: 30vh;
+            width: 90%;
+            border-radius: 10px;
+            top: 1vh;
+            left: 5%;
+            z-index: 80;
+        }
+
+        img.whale {
+            height: 20rem;
+            top: 2rem;
+            left: 30vw;
+            z-index: 90;
+        }
+
+        img.waves {
+            bottom: 1rem;
+            right: 1rem;
+            width: 30%;
+            z-index: 89;
+            filter: invert(11%) sepia(99%) saturate(1278%) hue-rotate(192deg) brightness(96%) contrast(91%);
+
+        }
+
+        .vacation-1 {
+
+            font-size: 4rem;
+            width: 30%;
+            top: 2rem;
+            left: 2rem;
+            z-index: 91;
+        }
+
+        .vacation-2 {
+
+            font-size: 3.5rem;
+            width: 90%;
+            top: 1rem;
+            right: 7%;
+            text-align: end;
+            z-index: 91;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    div.vacation-body {
+        height: 59vw;
+
+        div.green-div {
+            position: absolute;
+            height: 645px;
+            width: 95%;
+            border-radius: 10px;
+            top: 1vh;
+            left: 2.2%;
+            z-index: 80;
+        }
+
+        img.whale {
+            width: 608px;
+            height: 500px;
+            left: 534px;
+            top: 2rem;
+
+            z-index: 90;
+        }
+
+        img.waves {
+            bottom: 3rem;
+            width: 344px;
+            height: 235.52px;
+            left: 956px;
+            z-index: 89;
+            filter: invert(11%) sepia(99%) saturate(1278%) hue-rotate(192deg) brightness(96%) contrast(91%);
+
+        }
+
+        .vacation-1 {
+
+            font-size: 145px;
+            line-height: 86%;
+            width: 686px;
+            height: 381px;
+            top: 50px;
+            left: 70px;
+            z-index: 91;
+        }
+
+        .vacation-2 {
+
+            font-size: 96px;
+            line-height: 73.5%;
+            width: 298px;
+            height: 230px;
+            top: 3rem;
+            right: 7%;
+            text-align: end;
+            z-index: 91;
+        }
+    }
+}
