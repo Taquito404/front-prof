@@ -1,0 +1,247 @@
+div.review-body{
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: var(--bg-b-1);
+    position: relative;
+    .review{
+        position: absolute;
+        color: white;
+        font-family: Inter;
+        h3{
+            font-weight: bold;
+        }
+        p{
+            font-weight: light;
+        }
+    }
+    .slick-arrow{
+        display: none!important;
+    }
+    .slider-body {
+        position: absolute;
+        font-family: Inter;
+        color: white;
+        .card-body.card {
+            background-color: var(--bg-c-1);
+            width: 95%!important;
+            margin: auto;
+            .card-title {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+    
+                img {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+    
+                p {
+                    width: 8rem;
+                    text-align: end;
+                    font-size: 1.1rem;
+                    margin: 0;
+                }
+            }
+    
+            .card-text {
+                font-size: .8rem;
+                line-height: 22px;
+                letter-spacing: -0.02em;
+            }
+        }
+    }
+}
+.slick-dots li button:before{
+    color: white!important;
+    opacity: .9;
+    font-size: 10px!important;
+}
+
+@media only screen and (max-width: 376px) {
+
+    div.review-body{
+        overflow-x: hidden;
+        height: 100vh;
+        .review{
+            top: 3rem;
+            left: 10vw;
+            width: 90vw;
+            margin: auto;
+            .star-array{
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+            }
+            h3{
+                margin-top: .4rem;
+                width: 100%;
+            }
+            p{
+                width: 90%;
+                // text-align:justify;
+            }
+        }
+        .slider-body {
+          
+            height: auto;
+            width: 200vw;
+            margin-left: -50vw;
+            bottom: 2rem;
+            .card-body.card {
+                .card-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+        
+                    img {
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+        
+                    p {
+                        width: 8rem;
+                        text-align: end;
+                        font-size: 1.1rem;
+                        margin: 0;
+                    }
+                }
+        
+                .card-text {
+                    font-size: .8rem;
+                    line-height: 22px;
+                    letter-spacing: -0.02em;
+                }
+            }
+        }
+    }
+  
+}
+  
+@media (min-width: 377px) and (max-width: 426px) {
+    
+    div.review-body{
+        overflow-x: hidden;
+        height: 100vh;
+        .review{
+            top: 3rem;
+            left: 10vw;
+            width: 90vw;
+            margin: auto;
+            padding-top: 2rem;
+            .star-array{
+                
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+            }
+            h3{
+                margin-top: .4rem;
+                width: 100%;
+            }
+            p{
+                width: 90%;
+                // text-align:justify;
+            }
+        }
+        .slider-body {
+          
+          
+            width: 190vw;
+            margin-left: -50vw;
+            bottom: 3rem;
+            .card-body.card {
+                .card-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+        
+                    img {
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+        
+                    p {
+                        width: 8rem;
+                        text-align: end;
+                        font-size: 1.1rem;
+                        margin: 0;
+                    }
+                }
+        
+                .card-text {
+                    font-size: .8rem;
+                    line-height: 22px;
+                    letter-spacing: -0.02em;
+                }
+            }
+        }
+    }
+} 
+@media (min-width: 427px) and (max-width: 769px) {
+       
+    div.review-body{
+        overflow-x: hidden;
+   
+        .review{
+            top: 3rem;
+            left: 10vw;
+            width: 90vw;
+            margin: auto;
+            padding-top: 2rem;
+            .star-array{
+                
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+            }
+            h3{
+                margin-top: .4rem;
+                width: 100%;
+            }
+            p{
+                width: 90%;
+                // text-align:justify;
+            }
+        }
+        .slider-body {
+          
+          
+            width: 190vw;
+            margin-left: -50vw;
+            bottom: 3rem;
+            .card-body.card {
+                .card-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+        
+                    img {
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+        
+                    p {
+                        width: 8rem;
+                        text-align: end;
+                        font-size: 1.1rem;
+                        margin: 0;
+                    }
+                }
+        
+                .card-text {
+                    font-size: .8rem;
+                    line-height: 22px;
+                    letter-spacing: -0.02em;
+                }
+            }
+        }
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,16 +1,127 @@
-
-div.content-body{
+div.content-body {
     background-color: var(--bg-b-1);
     color: white;
-    height: 100vh;
-    .title-content{
+    
+    width: 100%;
+    position: relative;
+
+    #card-content-1 {
+        position: absolute;
+        z-index: 80;
+     
+    }
+    #card-content-2 {
+        position: absolute;
+        z-index: 80;
+        text-align: end;
+     
+    }
+    #card-content-3 {
+        position: absolute;
+        z-index: 80;
+
+    }
+
+    .title-content {
         font-family: Poppins;
         font-weight: extrabold;
-        font-size: 3rem;
-        width: 30%;
+
     }
-    .p-content{
+
+    .p-content {
         font-family: Inter;
-        width: 30%;
+
+    }
+
+    img.circle {
+        position: absolute;
+
     }
 }
+
+  
+@media only screen and (max-width: 376px) {
+    div.content-body {
+        height: 80vh;
+       img.circle {
+            top: 30vh;
+            left: 5vw;
+            width: 90vw;
+            height: 90vw;
+        }
+    }
+    #card-content-1 {
+        top: 1rem;
+        left: 1rem;
+        width: 90%;
+    }
+    #card-content-2 {
+        top: 30vh;
+        right: 1rem;
+        width: 90%;
+    }
+    #card-content-3 {
+        bottom: 1rem;
+        left: 1rem;
+        width: 90%;
+    }
+}
+
+  
+@media (min-width: 377px) and (max-width: 426px) {
+    div.content-body {
+        img.circle {
+             top: 10vh;
+             left: 5vw;
+             width: 90vw;
+             height: 90vw;
+         }
+     }
+     #card-content-1 {
+         top: 1rem;
+         left: 1rem;
+         width: 70vw;
+     }
+     #card-content-2 {
+         top: 35vh;
+         right: 1rem;
+         width: 70vw;
+     }
+     #card-content-3 {
+         bottom: 1rem;
+         left: 1rem;
+         width: 70vw;
+     }
+}
+ 
+@media (min-width: 427px) and (max-width: 769px) {
+    div.content-body {
+        img.circle {
+             top: 5vh;
+             left: 20vw;
+             width: 60vw;
+             height: 60vw;
+         }
+     }
+     #card-content-1 {
+         top: 3rem;
+         left: 3rem;
+         width: 40vw;
+     }
+     #card-content-2 {
+         top: 35vh;
+         right: 3rem;
+         width: 40vw;
+     }
+     #card-content-3 {
+         bottom: 3rem;
+         left: 3rem;
+         width: 40vw;
+     }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

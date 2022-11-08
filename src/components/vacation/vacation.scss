@@ -1,24 +1,179 @@
-div.vacation-body{
-    height: 100vh;
+div.vacation-body {
+    
     background-color: var(--bg-b-1);
-    div.green-div{
-        height: 50vh;
-        width: 80%;
+    position: relative;
+
+    div.green-div {
+        z-index: 80;
         margin: auto;
-        background-color: var(--bg-g-1); 
+        background-color: var(--bg-g-1);
     }
-    .vacation-1{
+
+    img.whale {
+        position: absolute;
+        z-index: 80;
+    }
+
+    img.waves {
+        position: absolute;
+        z-index: 80;
+    }
+
+    .vacation-1 {
+        position: absolute;
         font-family: Poppins;
         font-weight: extrabold;
-        font-size: 3rem;
-        width: 30%;
         color: white;
+        z-index: 80;
     }
-    .vacation-2{
+
+    .vacation-2 {
+        position: absolute;
         font-family: Poppins;
         font-weight: extrabold;
-        font-size: 3rem;
-        width: 30%;
         color: var(--bg-y-1);
+        z-index: 80;
     }
 }
+
+
+
+@media only screen and (max-width: 376px) {
+    div.vacation-body {
+        height: 100vh;
+        overflow-x: hidden;
+
+        div.green-div {
+            height: 50vh;
+            width: 90%;
+            border-radius: 10px;
+        }
+
+        img.whale {
+            height: 17rem;
+            top: 4rem;
+            left: 50vw;
+        }
+
+        img.waves {
+            top: 24rem;
+            width: 90%;
+            filter: invert(16%) sepia(52%) saturate(4571%) hue-rotate(180deg) brightness(98%) contrast(101%);
+        }
+
+        .vacation-1 {
+       
+            font-size: 3rem;
+            width: 30%;
+            top: 3rem;
+            left: 2rem;
+        }
+
+        .vacation-2 {
+     
+            font-size: 3rem;
+            width: 90%;
+            top: 29rem;
+            right: 2rem;
+            text-align: end;
+        }
+    }
+
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+    div.vacation-body {
+        overflow-x: hidden;
+
+        div.green-div {
+            height: 50vh;
+            width: 90%;
+            border-radius: 10px;
+        }
+
+        img.whale {
+            height: 15rem;
+            top: 1rem;
+            left: 50vw;
+        }
+
+        img.waves {
+            top: 18rem;
+            left: 15%;
+            width: 70%;
+            filter: invert(16%) sepia(52%) saturate(4571%) hue-rotate(180deg) brightness(98%) contrast(101%);
+        }
+
+        .vacation-1 {
+         
+            font-size: 3rem;
+            width: 30%;
+            top: 1rem;
+            left: 2rem;
+        }
+
+        .vacation-2 {
+          
+            font-size: 2.5rem;
+            width: 90%;
+            top: 23rem;
+            right: 19%;
+            text-align: end;
+        }
+    }
+}
+ 
+@media (min-width: 427px) and (max-width: 769px) {
+    div.vacation-body {
+        div.green-div {
+            position: absolute;
+            height: 70vh;
+            width: 90%;
+            border-radius: 10px;
+            top: 15vh;
+            left: 5%;
+            z-index: 80;
+        }
+
+        img.whale {
+            height: 20rem;
+            top: 1rem;
+            left: 20vw;
+            z-index: 90;
+        }
+
+        img.waves {
+            top: 8rem;
+            right: 10%;
+            width: 40%;
+            z-index: 89;
+            filter: invert(11%) sepia(99%) saturate(1278%) hue-rotate(192deg) brightness(96%) contrast(91%);
+            
+        }
+
+        .vacation-1 {
+         
+            font-size: 3rem;
+            width: 30%;
+            top: 7rem;
+            left: 2rem;
+            z-index: 91;
+        }
+
+        .vacation-2 {
+          
+            font-size: 3rem;
+            width: 90%;
+            top: 2rem;
+            right: 7%;
+            text-align: end;
+            z-index: 91;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

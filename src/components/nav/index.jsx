@@ -107,7 +107,9 @@ export default function NavBar() {
                 </NavDropdown>
               </Nav>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <button>sss</button>
+                <a href="home" className="log-in">
+                  {" "}
+                </a>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

@@ -1,25 +1,68 @@
 nav.navbar.navbar-expand-md {
-  z-index: 9;
+  z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     background-color: transparent!important;
-    a.navbar-brand{
-        // background-color: magenta;
-    }
-    a.dropdown-toggle.nav-link {
-        color: white;
-        font-family: Inter;
-        &::after {
-            display: none;
+    // a.navbar-brand{
+    //     // background-color: magenta;
+    // }
+    // a.dropdown-toggle.nav-link {
+    //     color: white;
+    //     font-family: Inter;
+    //     &::after {
+    //         display: none;
 
-        }
-    }
+    //     }
+    // }
     .navbar-toggler-icon{
         background: url(../../resources/Images/menu.svg)!important;
+    }
+}
+a.dropdown-toggle.nav-link {
+    color: white;
+    font-family: Inter;
+    &::after {
+        display: none;
+
     }
 }
 .dropdown-item{
   font-family: Inter;
 }
+.log-in{
+    width: 149.3px;
+    height: 44px;
+    background-image: url("../../resources/Images/Button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.offcanvas.offcanvas-end.show{
+    background-color: var(--bg-y-1);
+    .offcanvas-body{
+        background-color: var(--bg-b-1);
+        width: 90%;
+        margin: auto;
+        height: 30vh!important;
+        border-radius: 10px 10px 0 0;
+    }
+    .log-in{
+        margin-top: .5rem;
+    }
+
+}
+.dropdown-toggle.nav-link[aria-expanded="true"]{
+    color: var(--bg-y-1);
+}
+
+//           @media only screen and (max-width: 376px) {}
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {}
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {}
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {}
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {}
