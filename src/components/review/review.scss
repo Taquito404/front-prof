@@ -337,10 +337,10 @@ div.review-body {
 @media (min-width: 992px) and (max-width: 1199px) {
     div.review-body {
         overflow-x: hidden;
-        height: 50vh;
+        height: 60vw;
 
         .review {
-            top: 3rem;
+            top: 7rem;
             left: 5vw;
             width: 90vw;
             margin: auto;
@@ -404,7 +404,7 @@ div.review-body {
 @media only screen and (min-width: 1200px) {
     div.review-body {
         overflow-x: hidden;
-        height: 69vw;
+        height: 79vw;
 
         .review {
             top: 21rem;

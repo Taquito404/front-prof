@@ -281,7 +281,7 @@ div.vacation-body {
 @media only screen and (min-width: 1200px) {
     div.vacation-body {
         height: 59vw;
-
+        overflow-x: hidden;
         div.green-div {
             position: absolute;
             height: 645px;
